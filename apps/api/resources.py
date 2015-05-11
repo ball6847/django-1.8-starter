@@ -4,3 +4,4 @@ from tastypie.resources import ModelResource
 class UserResource(ModelResource):
     class Meta:
         queryset = User.objects.all()
+        excludes = ['password']

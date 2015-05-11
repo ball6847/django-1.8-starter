@@ -2,6 +2,7 @@
 .venv
 .virtualenv
 *.pyc
+*.swp
 
 # project specific
 project/settings_local.py

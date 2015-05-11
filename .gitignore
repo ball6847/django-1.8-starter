@@ -1,0 +1,7 @@
+# common ignore
+.venv
+.virtualenv
+*.pyc
+
+# project specific
+project/settings_local.py
